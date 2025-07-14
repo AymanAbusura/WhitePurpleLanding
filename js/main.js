@@ -50,7 +50,7 @@ window.onload = function() {;
     }
 
     // замена домена
-    var domainName = "securoomai.com";
+    var domainName = "ShaddersAgent.com";
     var replaceableTextElements = document.querySelectorAll(".domain");
     replaceableTextElements.forEach(function(element) {
         if (element.classList.contains("email")) {

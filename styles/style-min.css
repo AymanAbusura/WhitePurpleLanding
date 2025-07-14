@@ -120,9 +120,10 @@ section.p0{
 	color:#1b3942
 }
 .descr{
-	max-width:900px;
+	max-width: 480px;
 	color:#1a1a1a;
-	margin:0 auto 20px
+	text-align: left;
+	/*margin:0 auto 20px*/
 }
 .txt{
 	color:#1b3942;
@@ -399,7 +400,7 @@ textarea{
 	-ms-flex-pack:center;
 	justify-content:center;
 	/*text-transform:uppercase;*/
-	border-radius: 10px;
+	border-radius: 5px;
 	padding:0 50px;
 	height:48px;
 	/*font-weight:600;*/
@@ -451,8 +452,8 @@ textarea{
 	margin-bottom:10px
 }
 .form-contact{
-	margin-inline:auto;
-	max-width:630px
+	/*margin-inline:auto;*/
+	max-width: 470px;
 }
 .card__img img,.holder__image img{
 	max-width:100%
@@ -848,10 +849,10 @@ textarea{
 .terms{
 	padding-block:30px
 }
-.policy a,.terms a{
+.policy a, .terms a {
 	display:inline-block;
 	font-weight:700;
-	color:#fd8704
+	color: #6864f9;
 }
 .policy p+.title-3,.terms p+.title-3{
 	padding-top:20px
