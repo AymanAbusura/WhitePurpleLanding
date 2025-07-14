@@ -1,0 +1,18 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+	<title>2</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m-335.98-297h543.96c11.06 0 20.02 8.96 20.02 20.02v400.96c0 11.06-8.96 20.02-20.02 20.02h-543.96c-11.06 0-20.02-8.96-20.02-20.02v-400.96c0-11.06 8.96-20.02 20.02-20.02z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: #6a66f9;stroke-miterlimit:10;stroke-width: 2 } 
+		.s1 { fill: none;stroke: #282828;stroke-miterlimit:10;stroke-width: 2 } 
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g>
+			<path fill-rule="evenodd" class="s0" d="m176.5 281c-53.9 0-97.5-43.6-97.5-97.5 0-53.9 43.6-97.5 97.5-97.5 53.9 0 97.5 43.6 97.5 97.5 0 53.9-43.6 97.5-97.5 97.5z"/>
+			<path fill-rule="evenodd" class="s1" d="m178 354c-94 0-170-76-170-170 0-94 76-170 170-170 94 0 170 76 170 170 0 94-76 170-170 170z"/>
+		</g>
+	</g>
+</svg>

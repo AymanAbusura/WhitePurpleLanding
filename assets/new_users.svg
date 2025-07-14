@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 222 225" width="222" height="225">
+	<title>New users</title>
+	<style>
+		.s0 { fill: #6864f9 } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<path fill-rule="evenodd" class="s0" d="m113 221c-60.3 0-109-48.7-109-109 0-60.3 48.7-109 109-109 60.3 0 109 48.7 109 109 0 60.3-48.7 109-109 109z"/>
+	<path fill-rule="evenodd" class="s1" d="m113.2 105c-14.9 0-27-12.1-27-27 0-14.9 12.1-27 27-27 15 0 27 12.1 27 27 0 14.9-12 27-27 27z"/>
+	<path class="s1" d="m136 109.6c-4.8 7.6-13.2 12.6-22.8 12.6-9.6 0-18-5-22.7-12.6-19.8 8.3-34.1 27.1-35.9 49.4h117.3c-1.8-22.3-16.1-41.1-35.9-49.4z"/>
+	<path class="s1" d=""/>
+	<path class="s1" d=""/>
+</svg>

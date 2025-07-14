@@ -1,0 +1,27 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 138" width="288" height="138">
+	<title>1</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m-289.98-306h543.96c11.06 0 20.02 8.96 20.02 20.02v400.96c0 11.06-8.96 20.02-20.02 20.02h-543.96c-11.06 0-20.02-8.96-20.02-20.02v-400.96c0-11.06 8.96-20.02 20.02-20.02z"/>
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp2">
+			<path d="m-275.98-306h543.96c11.06 0 20.02 8.96 20.02 20.02v400.96c0 11.06-8.96 20.02-20.02 20.02h-543.96c-11.06 0-20.02-8.96-20.02-20.02v-400.96c0-11.06 8.96-20.02 20.02-20.02z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: #282828;stroke-miterlimit:1;stroke-width: 2 } 
+		.s1 { fill: none;stroke: #6a66f9;stroke-miterlimit:10;stroke-width: 2 } 
+	</style>
+	<g>
+		<g id="Clip-Path" clip-path="url(#cp1)">
+			<g>
+				<path class="s0" d="m0 140l20.5-60.4c2.1-6.3 8-10.6 14.7-10.6h126.9c11.7 0 19.9 11.5 16 22.6l-18.1 52.4"/>
+			</g>
+		</g>
+		<g id="Clip-Path" clip-path="url(#cp2)">
+			<g>
+				<path class="s1" d="m209 136l41.3-123c2.2-6.6 8.3-11 15.2-11h22.5"/>
+			</g>
+		</g>
+	</g>
+</svg>

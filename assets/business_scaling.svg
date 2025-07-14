@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225 225" width="225" height="225">
+	<title>Business scaling</title>
+	<style>
+		.s0 { fill: #6864f9 } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<path fill-rule="evenodd" class="s0" d="m114 219c-60.3 0-109-48.7-109-109 0-60.3 48.7-109 109-109 60.3 0 109 48.7 109 109 0 60.3-48.7 109-109 109z"/>
+	<path fill-rule="evenodd" class="s1" d="m132.1 85.8h23.9v75.8h-23.9z"/>
+	<path fill-rule="evenodd" class="s1" d="m100.6 105.4h22.5v56.2h-22.5z"/>
+	<path fill-rule="evenodd" class="s1" d="m68.3 123.7h22.5v39.3h-22.5z"/>
+	<path fill-rule="evenodd" class="s1" d="m120.3 52.5l18.2 26.7 14.1-27.1-32.3 0.4z"/>
+	<path fill-rule="evenodd" class="s1" d="m128.7 61.2l5.4 8.6-61.6 38.7-5.4-8.5z"/>
+	<path class="s1" d=""/>
+	<path class="s1" d=""/>
+</svg>
