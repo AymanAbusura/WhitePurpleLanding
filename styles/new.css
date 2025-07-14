@@ -64,6 +64,9 @@
   transform-origin: bottom center;
 }
 
+.desktop-nav, .desktop { display: flex; }
+.mobile-menu { display: none; }
+
 .line {
 	border-bottom:1px solid #dcdcdc;
 	margin: 0 155px;
@@ -545,7 +548,7 @@
 
 .email {
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	gap: 8px;
 }
 
@@ -661,4 +664,348 @@
 
 .stop_hover {
 	color: #6864f9!important;
+}
+
+
+@media only screen and (max-width:768px) {
+	.header__img, .why__img, .geting__img, .need__img {
+		display: none;
+	}
+
+	.desktop-nav, .desktop, .mobile_hidden { display: none!important; }
+    .mobile-menu { 
+        display: flex;
+        align-items: center;
+        gap: 10px; 
+    }
+
+	#menu { 
+        display: none; 
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100vh; 
+        background: rgba(0, 0, 0, 0.8); 
+        text-align: center; 
+        padding-top: 100px; 
+    }
+    #menu.overlay { 
+        display: block; 
+        z-index: 49;
+    }
+    #menu ul {
+        padding: 0;
+    }
+    #menu li {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    #menu a {
+        color: #fff;
+        display: block;
+        font-size: 25px;
+        margin-bottom: 30px;
+        text-decoration: none;
+    }
+    .contact-btn-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+    #burger-menu { 
+        cursor: pointer; 
+        height: 27px; 
+        width: 27px; 
+        position: relative; 
+        z-index: 50; 
+    }
+    #burger-menu span, #burger-menu span:before, #burger-menu span:after {
+        background: #000; 
+        display: block; 
+        height: 2px; 
+        position: absolute; 
+        transition: 0.3s ease-in-out;
+    }
+    #burger-menu span:before, #burger-menu span:after { content: ''; }
+    #burger-menu span:before { 
+        left: 0; 
+        top: -10px; 
+        width: 27px; 
+    }
+    #burger-menu span { 
+        right: 0; 
+        top: 13px; 
+        width: 27px; 
+    }
+    #burger-menu span:after { 
+        left: 0; 
+        top: 10px; 
+        width: 27px; 
+    }
+    #burger-menu.close span:before { 
+    	background: #fff;
+        top: 0; 
+        transform: rotate(90deg); 
+        width: 27px; 
+    }
+    #burger-menu.close span { 
+    	background: #fff;
+        transform: rotate(-45deg); 
+        top: 13px; 
+        width: 27px; 
+    }
+    #burger-menu.close span:after { 
+        top: 0; 
+        left: 0; 
+        transform: rotate(90deg); 
+        opacity: 0; 
+        width: 0; 
+    }
+
+    .line {
+    	margin: 0;
+    }
+
+    .underline::after {
+    	left: -10px;
+    	bottom: -2px;
+    	width: 150px;
+    	height: 20px;
+    }
+
+    .card.investor-startups::before {
+    	bottom: -2%;
+    	left: 30%;
+    }
+
+    .card.business-scaling::before {
+    	bottom: -2px;
+    	left: 64px;
+    }
+
+    .transfers-payments {
+    	left: 100px;
+    	top: 0;
+    }
+
+    .new-users {
+        left: 400px;
+    }
+
+    .cards__container {
+    	flex-direction: column;
+    	gap: 0;
+    }
+
+    .title-2 span {
+    	display: inline-block!important;
+    }
+
+    .stratigies {
+    	left: 25%;
+    	top: 0;
+    }
+
+    .faq__new {
+    	gap: 50px;
+    }
+
+    .vertical-line {
+    	width: 100%;
+    	height: 1px;
+    }
+
+    .carousel {
+    	flex-direction: initial;
+    	width: 100%;
+    	top: 70px;
+    }
+
+    .section_help {
+    	padding-block: 130px 0!important;
+    }
+
+    .card__help {
+    	left: 0;
+    }
+
+    .card__help button {
+    	width: 100%;
+    	border: 1px solid #6864f9;
+    }
+
+    .card__help {
+    	flex-direction: row;
+    	width: 100%;
+    	top: 100px;
+    }
+
+    .card__help h2 {
+    	color: #000;
+    }
+
+    .why_use {
+    	width: 100%;
+    }
+    
+    .line2 {
+    	margin-left: 0;
+    }
+
+    .footer-nav {
+    	justify-content: center;
+    	gap: 70px;
+    }
+
+    .footer {
+    	padding-top: 0;
+    }
+
+    .card__number {
+    	font-size: 220px;
+    	top: -90px;
+    	left: -7px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+	.home__body { padding-top: 0!important; }
+	.home__hold { padding-bottom: 0!important; }
+	.cards {
+		flex-wrap: nowrap!important;
+		overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+	}
+	
+	.cards::-webkit-scrollbar {
+        display: none;
+    }
+
+	.card {
+        min-width: 80%;
+        scroll-snap-align: start;
+        flex-shrink: 0;
+    }
+
+    .card.investor-startups::before {
+    	left: 28%;
+    }
+
+    .why_use_container {
+    	margin-top: 0!important;
+    }
+
+    .block__row-1 {
+    	margin-block: 0!important;
+    }
+
+    .new-users {
+    	left: 100px;
+    	margin-top: 10px;
+    }
+
+    .block__header {
+    	position: relative;
+    	z-index: 2;
+    }
+
+    .stratigies {
+    	left: 10%;
+    }
+
+    .help_container {
+    	margin-top: 200px!important;
+    }
+
+    .why_use {
+    	margin-top: 0px!important;
+    }
+
+    .email {
+    	justify-content: space-between;
+    }
+
+    .footer-nav .nav1 {
+    	gap: 10px;
+    }
+
+    .card__help {
+    	flex-direction: column;
+    	top: 200px;
+    }
+
+    .line2 {
+    	margin: 20px 0;
+    }
+
+    .card__number {
+    	font-size: 250px !important;
+        top: -95px !important;
+        left: 252px !important;
+    }
+
+    .form::before {
+    	bottom: 73%;
+    	left: 33%;
+    }
+
+    .card__getting::before {
+    	bottom: 49.5%;
+	    left: 29%;
+    }
+}
+
+@media only screen and (max-width:375px) {
+	.footer-nav {
+		flex-direction: column;
+		align-items: center;
+		gap: 0;
+	}
+
+	.footer-nav .nav1 {
+		flex-direction: column;
+	}
+
+	.transfers-payments, .new-users {
+		left: 50px;
+	}
+
+	.card__number {
+		left: 204px !important;
+	}
+
+	.stratigies {
+        left: 3%;
+    }   
+}
+
+@media only screen and (max-width:320px) {
+	.logo {
+		width: 150px!important;
+	}
+	.form::before {
+		left: 27%;
+	}
+
+	.transfers-payments, .new-users {
+		left: 25px;
+	}
+
+	.card__number {
+		left: 157px !important;
+	}
+
+	.card__getting {
+		width: 300px;
+		left: 3%;
+	}
+
+	.card__getting::before {
+		left: 26%;
+	}
 }

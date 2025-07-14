@@ -53,8 +53,6 @@ img{
 	border-radius:10px;
 	background-color: #fff;
 	box-shadow: 0px 0px 5px #00000080;
-	/*background:-webkit-gradient(linear,left bottom,left top,from(#f7f8f8),to(#f7f8f8)),#fff;
-	background:linear-gradient(0deg,#f7f8f8 0,#f7f8f8 100%),#fff;*/
 	-webkit-backdrop-filter:blur(5px);
 	backdrop-filter:blur(5px)
 }
@@ -70,7 +68,8 @@ body,html{
 	position:relative;
 	height:100%;
 	min-height:100%;
-	max-width:100%
+	max-width:100%;
+	overflow-x: hidden;
 }
 body{
 	font-weight:400;
