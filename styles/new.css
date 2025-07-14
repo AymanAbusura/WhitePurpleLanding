@@ -839,6 +839,37 @@
 	margin: 30px 0;
 }
 
+/*SIGNUP*/
+.form-login {
+	margin-inline: 0!important;
+}
+
+.signup__section {
+	position: relative;
+	z-index: 1;
+}
+
+.title-signup {
+	width: 34%;
+}
+
+.title-signup .underline {
+	text-align: center;
+}
+
+.title-signup .underline::after {
+	left: 100px;
+}
+
+/*LOGIN*/
+.login__form {
+	margin-inline: auto!important;
+}
+.title_login .underline::after {
+	left: 40%;
+   	bottom: -12px;
+}
+
 
 @media only screen and (max-width:768px) {
 	.header__img, .why__img, .geting__img, .need__img {
@@ -1067,6 +1098,39 @@
     .line2__aboutus {
     	margin-right: auto;
     }
+
+    .form-contact {
+    	max-width: initial!important;
+    }
+
+    .title-contact {
+    	text-align: center;
+    }
+
+    .contact .underline::after {
+    	left: 10px;
+    }
+
+    .descr {
+    	margin: 0 auto 20px;
+    }
+
+    .form__contact::before {
+    	left: 43.5%;
+    }
+
+    .title-signup {
+    	width: 100%;
+    }
+
+    .form_signup {
+    	margin-inline: auto!important;
+    }
+
+    .title-signup .underline::after {
+    	width: 177px;
+    	left: 34px;
+    }
 }
 
 @media only screen and (max-width:425px) {
@@ -1205,6 +1269,23 @@
     .help_container__aboutus {
     	margin-top: 0px !important;
     }
+
+    .contact .underline::after {
+    	left: -10px;
+    }
+
+    .form__contact::before {
+    	bottom: 71%;
+    }
+
+    .title-signup {
+    	text-align: center;
+    }
+
+    .title-signup .underline::after {
+    	left: 5px;
+    	bottom: -10px;
+    }
 }
 
 @media only screen and (max-width:375px) {
@@ -1232,6 +1313,10 @@
 
     .card__design::before {
     	left: 30.5%;
+    }
+
+    .form__contact::before {
+    	left: 30%;
     }
 }
 
